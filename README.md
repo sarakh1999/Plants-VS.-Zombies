@@ -9,6 +9,8 @@
 
 Note: This is a copy of our main group proect (not forked). Hence, contributions are not defined.
 
+-----------------------------------------------------------------------------------------
+
 # Demos of different game views are completely uploaded in the Demos directory.
 
 
