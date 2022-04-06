@@ -1,0 +1,14 @@
+{
+  "@type": "Model.Card.Zombies.Zombie",
+  "@val": {
+    "name": "Zomboni",
+    "id":"5",
+    "AP": "10000",
+    "HP": "3",
+    "speed": "2",
+    "armour": "0",
+    "pea": "true",
+    "price": 0,
+    "IronHat":"false"
+  }
+}

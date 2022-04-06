@@ -1,0 +1,18 @@
+{
+  "@type": "Model.Card.Plants.Plant",
+  "@val": {
+    "name": "SunFlower",
+    "id":"22",
+    "AP": "0",
+    "HP": "2",
+    "sun": "1",
+    "Turn": "2",
+    "cooldown": "2",
+    "ProducedSun": "1",
+    "SpeedReduction": "1",
+    "price":0,
+    "speedReduction":"0",
+        "pea":"true",
+        "peaAmount":"0"
+  }
+}

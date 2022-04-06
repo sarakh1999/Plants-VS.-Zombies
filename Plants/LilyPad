@@ -1,0 +1,19 @@
+{
+  "@type": "Model.Card.Plants.Plant",
+  "@val": {
+    "name": "LilyPad",
+    "id":"13",
+    "AP": "0",
+    "HP": "1",
+    "sun": "0",
+    "Turn": "0",
+    "cooldown": "1",
+    "ProducedSun": "0",
+    "SpeedReduction": "1",
+    "price":0,
+    "speedReduction":"0",
+        "pea":"true",
+        "peaAmount":"0"
+
+  }
+}

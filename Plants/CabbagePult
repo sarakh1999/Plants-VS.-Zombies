@@ -1,0 +1,18 @@
+{
+  "@type": "Model.Card.Plants.Plant",
+  "@val": {
+    "name": "CabbagePult",
+    "id":"3",
+    "AP": "2",
+    "HP": "2",
+    "sun": "2",
+    "Turn": "2",
+    "cooldown": "3",
+    "ProducedSun": "0",
+    "SpeedReduction": "1",
+    "price":0,
+    "speedReduction":"0",
+    "pea":"false",
+    "peaAmount":"2"
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "@type": "Model.Card.Zombies.Zombie",
+  "@val": {
+    "name": "NewspaperZombie",
+    "id":"9",
+    "AP": "1",
+    "HP": "2",
+    "speed": "2",
+    "armour": "2",
+    "pea": "true",
+    "price": 0,
+    "IronHat":"false"
+  }
+}

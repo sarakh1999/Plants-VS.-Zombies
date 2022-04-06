@@ -1,0 +1,18 @@
+{
+  "@type": "Model.Card.Plants.Plant",
+  "@val": {
+    "name": "KernelPult",
+    "id":"9",
+    "AP": "0",
+    "HP": "2",
+    "sun": "3",
+    "Turn": "4",
+    "cooldown": "3",
+    "ProducedSun": "0",
+    "SpeedReduction": "100000",
+    "price":0,
+    "speedReduction":"0",
+        "pea":"false",
+        "peaAmount":"0"
+  }
+}

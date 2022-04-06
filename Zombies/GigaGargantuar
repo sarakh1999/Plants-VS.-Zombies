@@ -1,0 +1,14 @@
+{
+  "@type": "Model.Card.Zombies.Zombie",
+  "@val": {
+    "name": "GigaGargantuar",
+    "id":"12",
+    "AP": "10000",
+    "HP": "6",
+    "speed": "1",
+    "armour": "0",
+    "pea": "true",
+    "price": 0,
+    "IronHat":"false"
+  }
+}

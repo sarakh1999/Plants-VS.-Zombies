@@ -1,0 +1,14 @@
+{
+  "@type": "Model.Card.Zombies.Zombie",
+  "@val": {
+    "name": "ConeheadZombie",
+    "id": "4",
+    "AP": "1",
+    "HP": "3",
+    "speed": "2",
+    "armour": "1",
+    "pea": "true",
+    "price": "0",
+    "IronHat":"false"
+  }
+}

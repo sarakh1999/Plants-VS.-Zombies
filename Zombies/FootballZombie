@@ -1,0 +1,14 @@
+{
+  "@type": "Model.Card.Zombies.Zombie",
+  "@val": {
+    "name": "FootballZombie",
+    "id":"2",
+    "AP": "1",
+    "HP": "4",
+    "speed": "3",
+    "armour": "0",
+    "pea": "true",
+    "price": 0,
+    "IronHat":"false"
+  }
+}

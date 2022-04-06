@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.control.PasswordField?>
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Menus.LoginMenu">
+    <children>
+        <VBox>
+            <children>
+                <MenuBar>
+                    <menus>
+                        <Menu mnemonicParsing="false" text="File">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="Close" />
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Edit">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="Delete" />
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Help">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="About" />
+                            </items>
+                        </Menu>
+                    </menus>
+                </MenuBar>
+                <AnchorPane prefHeight="400.0" prefWidth="600.0">
+                    <children>
+                        <Text fx:id="errorL" fill="#ab0c0c" layoutX="184.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="321.13671875">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <ImageView fitHeight="570.0" fitWidth="760.0">
+                            <image>
+                                <Image url="@../../Images/menusBackGround.png" />
+                            </image>
+                        </ImageView>
+                        <TextField fx:id="usernameField" layoutX="280.0" layoutY="135.0" promptText="username" />
+                        <Label fx:id="err" alignment="CENTER" layoutX="213.0" layoutY="296.0" prefHeight="17.0" prefWidth="284.0" textAlignment="CENTER" textFill="#e11919">
+                            <font>
+                                <Font size="17.0" />
+                            </font>
+                        </Label>
+                        <PasswordField fx:id="passwordField" layoutX="280.0" layoutY="206.0" promptText="password" />
+                        <Label layoutX="280.0" layoutY="188.0" prefHeight="18.0" prefWidth="129.0" text="Password:" textFill="#0a0000" />
+                        <Label layoutX="280.0" layoutY="117.0" prefHeight="18.0" prefWidth="101.0" text="Username:" textFill="#0a0000" />
+                        <Button fx:id="LoginButton" layoutX="280.0" layoutY="247.0" mnemonicParsing="false" text="Login" />
+                        <Button fx:id="CreateAccountButton" layoutX="377.0" layoutY="247.0" mnemonicParsing="false" text="Create" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </VBox>
+    </children>
+</VBox>

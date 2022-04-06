@@ -1,0 +1,14 @@
+{
+  "@type": "Model.Card.Zombies.Zombie",
+  "@val": {
+    "name": "SnorkelZombie",
+    "id":"14",
+    "AP": "2",
+    "HP": "2",
+    "speed": "2",
+    "armour": "3",
+    "pea": "true",
+    "price": 0,
+    "IronHat":"false"
+  }
+}

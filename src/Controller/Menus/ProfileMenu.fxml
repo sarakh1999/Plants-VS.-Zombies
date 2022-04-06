@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Menus.ProfileMenu">
+   <children>
+      <ImageView fitHeight="570.0" fitWidth="760.0">
+         <image>
+            <Image url="@../../Images/menusBackGround.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="ChangeButton" layoutX="299.0" layoutY="40.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="113.0" text="Change" />
+      <ImageView fitHeight="80.0" fitWidth="80.0">
+         <image>
+            <Image url="@../../Images/back.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="DeleteButton" layoutX="299.0" layoutY="90.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="113.0" text="Delete" />
+      <Button fx:id="RenameButton" layoutX="299.0" layoutY="138.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="113.0" text="Rename" />
+      <Button fx:id="ShowButton" layoutX="299.0" layoutY="234.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="113.0" text="Show" />
+      <Button fx:id="CreateButton" layoutX="299.0" layoutY="186.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="113.0" text="Create" />
+      <Button fx:id="backButton" layoutX="14.0" layoutY="28.0" mnemonicParsing="false" opacity="0.0" text="backButton" />
+      <TextField fx:id="textField" layoutX="282.0" layoutY="332.0" visible="false" />
+      <PasswordField fx:id="passwordField" layoutX="282.0" layoutY="381.0" visible="false" />
+      <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="198.0" layoutY="285.0" prefHeight="47.0" prefWidth="314.0" text="Label" textAlignment="CENTER" textFill="#970074" visible="false">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="done" layoutX="334.0" layoutY="422.0" mnemonicParsing="false" text="Done" visible="false" />
+   </children>
+</AnchorPane>

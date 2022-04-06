@@ -1,0 +1,18 @@
+{
+  "@type": "Model.Card.Plants.Plant",
+  "@val": {
+    "name": "WinterMelon",
+    "id":"14",
+    "AP": "3",
+    "HP": "3",
+    "sun": "4",
+    "Turn": "4",
+    "cooldown": "5",
+    "ProducedSun": "0",
+    "SpeedReduction": "2",
+    "price":0,
+    "speedReduction":"0",
+        "pea":"true",
+        "peaAmount":"0"
+  }
+}

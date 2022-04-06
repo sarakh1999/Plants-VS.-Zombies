@@ -1,0 +1,18 @@
+{
+  "@type": "Model.Card.Plants.Plant",
+  "@val": {
+    "name": "MagnetShroom",
+    "id":"21",
+    "AP": "0",
+    "HP": "2",
+    "sun": "4",
+    "Turn": "3",
+    "cooldown": "4",
+    "ProducedSun": "0",
+    "SpeedReduction": "1",
+    "price":0,
+    "speedReduction":"0",
+        "pea":"true",
+        "peaAmount":"0"
+  }
+}

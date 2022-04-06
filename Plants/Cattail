@@ -1,0 +1,19 @@
+{
+  "@type": "Model.Card.Plants.Plant",
+  "@val": {
+    "name": "Cattail",
+    "id":"18",
+    "AP": "10000",
+    "HP": "3",
+    "sun": "5",
+    "Turn": "0",
+    "cooldown": "5",
+    "ProducedSun": "0",
+    "SpeedReduction": "1",
+    "price":0,
+    "speedReduction":"0",
+        "pea":"true",
+        "peaAmount":0
+
+  }
+}
